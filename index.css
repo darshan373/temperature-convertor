@@ -6,7 +6,7 @@
 .container{
     display: flex;
     justify-content: center;
-    background: linear-gradient(orange,blue,180deg);
+   
     
     min-height: 100vh;
 }
