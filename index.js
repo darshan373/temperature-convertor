@@ -12,6 +12,7 @@ submitButton.onclick=function(){
         let val=input.value;
         val=Number(val);
         val= (val*9/5)+32;
+        val=val.toFixed(2);
         result.textContent=val+"°F"
     }
     else if(fc.checked)
@@ -19,6 +20,7 @@ submitButton.onclick=function(){
         let val=input.value;
         val=Number(val);
         val= (val-32)*5/9;
+        val=val.toFixed(2);
         result.textContent=val+"°C";
 
 
